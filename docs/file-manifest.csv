@@ -1,0 +1,61 @@
+path,bytes,sha256,source_relative
+src/智能三子棋博弈与交互装置.docx,98475,b89e89b3c4c864fa50c059cbd5d3d37cdc46d417b96959b676f71beabc79b9fa,智能三子棋博弈与交互装置.docx
+src/智能三子棋博弈与交互装置.pdf,351270,2ad33485f80b65cd8eae4343d428333fedbc4adfcb9c409bef87b4e17c063b67,智能三子棋博弈与交互装置.pdf
+src/电赛模拟.txt,8514,238c04be367c1f4559321a74e979984e3dc7c8e33edb8a12406177f5de303a72,电赛模拟.txt
+src/code/电赛模拟文档.txt,8516,219a1c47884a7a0c0ae3b687f69689077e1d78e0a6781d978c0850c90c49bc95,code\电赛模拟文档.txt
+src/code/李彦臻的电赛模拟/main.py,46340,4662ba2352bd52238440d77f28882e0ff57cb46de3c65bc252801d3c7a541092,code\李彦臻的电赛模拟\main.py
+src/code/李彦臻的电赛模拟/main_model.py,1253,016b4acc188591c3a71d4167c63aaa6c5916832d8ba6d3f66019c4e3423d346f,code\李彦臻的电赛模拟\main_model.py
+src/code/李彦臻的电赛模拟/person_write.py,4256,09388e8366d3a19174c80ba43a87224226cdd7898cbb1c8fb2b70d7b3909ce61,code\李彦臻的电赛模拟\person_write.py
+src/code/李彦臻的电赛模拟/person_write2.py,1002,76a10ac3ab2e06e9af588a493d9af446329d8360a31df030fc7ad4d5a5016037,code\李彦臻的电赛模拟\person_write2.py
+src/code/李彦臻的电赛模拟/person_write3.py,1021,f4c16936439d80102a909c77e4d51375215ac7bd5fda286cef902fcbfa78c7fa,code\李彦臻的电赛模拟\person_write3.py
+src/code/李彦臻的电赛模拟/person_write4.py,2763,29c33b8044ec30ddd0950689ce26910d4b36f599b413c89c2984ecbe7ba9636a,code\李彦臻的电赛模拟\person_write4.py
+src/code/李彦臻的电赛模拟/test.py,7337,699921f1957acfb953ad73c87ed49c0f78592b60edfc9291ab62cdbfe0c57451,code\李彦臻的电赛模拟\test.py
+src/code/李彦臻的电赛模拟/棋盘.png,1797248,08d669997efad21373d8d8efe40ba96efd1fdf3bce2e924bada4ba9c90f3b12c,code\李彦臻的电赛模拟\棋盘.png
+src/code/李彦臻的电赛模拟/棋盘旋转45°.png,1774155,13511685928c6d2e3922b4dfeccd0a877e05ef2257e01be57c2744b59235707b,code\李彦臻的电赛模拟\棋盘旋转45°.png
+src/code/李彦臻的电赛模拟/棋盘（任务一白棋）.png,1760687,8be98954a753d1f1b6e313ac5e5ec0971a6d1ea4fa6c0f195815710df2cb3426,code\李彦臻的电赛模拟\棋盘（任务一白棋）.png
+src/code/李彦臻的电赛模拟/棋盘（任务一黑）.png,1768376,f791b2332b8514516d8adedb61a6765e08051a747fd14e12ca11372d3769828c,code\李彦臻的电赛模拟\棋盘（任务一黑）.png
+src/code/李彦臻的电赛模拟/model1/app.yaml,215,94a115c0e9ea36f4417e3a50e665c1e9b468f3a2f9c7001c082b9ce3251ff6c8,code\李彦臻的电赛模拟\model1\app.yaml
+src/code/李彦臻的电赛模拟/model1/model_246778.cvimodel,7273584,07b53dd3c074980040240cb7403c44a541e1f5464c8c6c374f73a649320b2104,code\李彦臻的电赛模拟\model1\model_246778.cvimodel
+src/code/李彦臻的电赛模拟/model1/model_246778.mud,296,c0b1cdf38d22392ab38545581b07d4df4171e42b138b1e84f880357401a95d37,code\李彦臻的电赛模拟\model1\model_246778.mud
+src/code/李彦臻的电赛模拟/model1/report.json,26640,623cd226fb3c661a2fe1f84070d97fc21c45f8b7bd27a4fa66dc5e33426dd9dc,code\李彦臻的电赛模拟\model1\report.json
+src/code/李彦臻的电赛模拟/model2/app.yaml,215,a014930617e69bef8a3d76895d301edf7a6fa8488e75931351ef8f1709e8579a,code\李彦臻的电赛模拟\model2\app.yaml
+src/code/李彦臻的电赛模拟/model2/model_247058.cvimodel,7271208,9dbe0d983b5b7e3849c3f8279197491dcb5d23b21033d744ced49f8cdc00a1e1,code\李彦臻的电赛模拟\model2\model_247058.cvimodel
+src/code/李彦臻的电赛模拟/model2/model_247058.mud,290,2d06e6c8debeea958ff4f2d34884a2a6ddac6098f29a0a21673af68fe69711d8,code\李彦臻的电赛模拟\model2\model_247058.mud
+src/code/李彦臻的电赛模拟/model2/report.json,20821,63f4ee22736effc121a465500a3ea6037f82746cab5bc859f2e5831a85481c6f,code\李彦臻的电赛模拟\model2\report.json
+src/model1/app.yaml,215,94a115c0e9ea36f4417e3a50e665c1e9b468f3a2f9c7001c082b9ce3251ff6c8,model1\app.yaml
+src/model1/main1.py,1265,1fda84168ac9a8b898b0a58b98ca60a557100175227a3cac957a029ad1f03c98,model1\main1.py
+src/model1/model_246778.cvimodel,7273584,07b53dd3c074980040240cb7403c44a541e1f5464c8c6c374f73a649320b2104,model1\model_246778.cvimodel
+src/model1/model_246778.mud,296,c0b1cdf38d22392ab38545581b07d4df4171e42b138b1e84f880357401a95d37,model1\model_246778.mud
+src/model1/report.json,26640,623cd226fb3c661a2fe1f84070d97fc21c45f8b7bd27a4fa66dc5e33426dd9dc,model1\report.json
+src/model2/app.yaml,215,a014930617e69bef8a3d76895d301edf7a6fa8488e75931351ef8f1709e8579a,model2\app.yaml
+src/model2/main.py,1265,5bfc400da198dc4541a09a814b53ad1505084befb5c1865754589a748bada050,model2\main.py
+src/model2/model_247058.cvimodel,7271208,9dbe0d983b5b7e3849c3f8279197491dcb5d23b21033d744ced49f8cdc00a1e1,model2\model_247058.cvimodel
+src/model2/model_247058.mud,290,2d06e6c8debeea958ff4f2d34884a2a6ddac6098f29a0a21673af68fe69711d8,model2\model_247058.mud
+src/model2/report.json,20821,63f4ee22736effc121a465500a3ea6037f82746cab5bc859f2e5831a85481c6f,model2\report.json
+src/project-1/app.yaml,103,caf6b618fbebc3bf998fee47a53e5f6870d2d3ab613e33ddace9defab052a4ba,project-1\app.yaml
+src/project-1/main.py,46340,4662ba2352bd52238440d77f28882e0ff57cb46de3c65bc252801d3c7a541092,project-1\main.py
+src/project-1/main_model.py,1253,016b4acc188591c3a71d4167c63aaa6c5916832d8ba6d3f66019c4e3423d346f,project-1\main_model.py
+src/project-1/person_write.py,4256,09388e8366d3a19174c80ba43a87224226cdd7898cbb1c8fb2b70d7b3909ce61,project-1\person_write.py
+src/project-1/person_write2.py,1002,76a10ac3ab2e06e9af588a493d9af446329d8360a31df030fc7ad4d5a5016037,project-1\person_write2.py
+src/project-1/person_write3.py,1021,f4c16936439d80102a909c77e4d51375215ac7bd5fda286cef902fcbfa78c7fa,project-1\person_write3.py
+src/project-1/person_write4.py,2763,29c33b8044ec30ddd0950689ce26910d4b36f599b413c89c2984ecbe7ba9636a,project-1\person_write4.py
+src/project-1/test.py,7337,699921f1957acfb953ad73c87ed49c0f78592b60edfc9291ab62cdbfe0c57451,project-1\test.py
+src/project-1/棋盘.png,1797248,08d669997efad21373d8d8efe40ba96efd1fdf3bce2e924bada4ba9c90f3b12c,project-1\棋盘.png
+src/棋盘图/棋盘.png,1797248,08d669997efad21373d8d8efe40ba96efd1fdf3bce2e924bada4ba9c90f3b12c,棋盘图\棋盘.png
+src/棋盘图/棋盘旋转45°.png,1774155,13511685928c6d2e3922b4dfeccd0a877e05ef2257e01be57c2744b59235707b,棋盘图\棋盘旋转45°.png
+src/棋盘图/棋盘（任务一白棋）.png,1760687,8be98954a753d1f1b6e313ac5e5ec0971a6d1ea4fa6c0f195815710df2cb3426,棋盘图\棋盘（任务一白棋）.png
+src/棋盘图/棋盘（任务一黑）.png,1768376,f791b2332b8514516d8adedb61a6765e08051a747fd14e12ca11372d3769828c,棋盘图\棋盘（任务一黑）.png
+src/零件/棋盘2024.SLDPRT,121974,cae37f47b0bf9da6078dfb504a573ffc0fc7d0d14df59f4aa8a776bdc3322854,零件\棋盘2024.SLDPRT
+src/零件/棋盘格2024.SLDPRT,63567,f8b6fcc33dec9e2760c5fe9dc374cdf0920928907a13ea7429298e552ef840cf,零件\棋盘格2024.SLDPRT
+src/零件/棋盘装配体2024 - 棋盘2024-1.3mf,30526,0dfb47444e5cc46b0aaba04d26d8ab50902b2de8cf3cee1f2e55e4c9f84abf29,零件\棋盘装配体2024 - 棋盘2024-1.3mf
+src/零件/棋盘装配体2024 - 棋盘2024-1.STL,7084,31203fc09673e07bfacf8999ed833c2064a6f972b9a6e9cd041edecae6e40b1e,零件\棋盘装配体2024 - 棋盘2024-1.STL
+src/零件/棋盘装配体2024 - 棋盘格2024-1.STL,684,09aad021cb0cd1ed0fb7030bc94404ac01bd792256824bbd0e582c6b1ac6ad49,零件\棋盘装配体2024 - 棋盘格2024-1.STL
+src/零件/棋盘装配体2024 - 棋盘格2024-2.STL,684,046f8d2c29b91af235406244c00d15425a19ccbb93b7d3f6d93aa8c048d5100d,零件\棋盘装配体2024 - 棋盘格2024-2.STL
+src/零件/棋盘装配体2024 - 棋盘格2024-3.STL,684,49093049924350146444ead90f7c3f7a83175f7b7fd142d895ffa5bd5dab2f53,零件\棋盘装配体2024 - 棋盘格2024-3.STL
+src/零件/棋盘装配体2024 - 棋盘格2024-4.STL,684,a44650ebb1ca78f2f1802a0ec8b48324cb09c4cacbba246aca1c8a27e06a9834,零件\棋盘装配体2024 - 棋盘格2024-4.STL
+src/零件/棋盘装配体2024 - 棋盘格2024-5.STL,684,6ca0603aa9ad630552fdb8b342bd834b604ab6f12491b7fa9f5db231f4eec5fe,零件\棋盘装配体2024 - 棋盘格2024-5.STL
+src/零件/棋盘装配体2024 - 棋盘格2024-6.STL,684,aa4c5a2b87f66ba0dd9551a0a160455f2a67b609488e13c2d99f7ddb875f1c8c,零件\棋盘装配体2024 - 棋盘格2024-6.STL
+src/零件/棋盘装配体2024 - 棋盘格2024-7.STL,684,54eac5b07598f277ad0c6580d81e28d5120a9487e6508a30f255602f5114e754,零件\棋盘装配体2024 - 棋盘格2024-7.STL
+src/零件/棋盘装配体2024 - 棋盘格2024-8.STL,684,843e2705c7c5d6dcdcb62368f1d3580f22415b12ac9772d1170186b7b81ad776,零件\棋盘装配体2024 - 棋盘格2024-8.STL
+src/零件/棋盘装配体2024 - 棋盘格2024-9.STL,684,a029c1d606050063cc84537741dd7f96ebd5bd9b1b7ab0e2b8b775166e011210,零件\棋盘装配体2024 - 棋盘格2024-9.STL
+src/零件/棋盘装配体2024.SLDASM,99507,59dec2019fa9c9670077d757e95b4286c3c1b698341b9ed5714daafc60fc48bd,零件\棋盘装配体2024.SLDASM

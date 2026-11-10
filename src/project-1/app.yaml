@@ -1,0 +1,9 @@
+id: final
+name: final
+version: 1.0.0
+author: lyz
+icon: ''
+desc: none
+files:
+  - 棋盘.png
+  - main.py
