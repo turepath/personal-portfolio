@@ -1,0 +1,7 @@
+import numpy
+print('numpy 正常')
+import cv2
+print('opencv 正常')
+import mediapipe
+print('mediapipe 正常')
+print('全部库导入成功，环境就绪')

@@ -1,0 +1,9 @@
+# Initial CPU baseline for Windows 11 x64 / Python 3.12.
+# Installation, imports, and pip check passed locally on 2026-10-16.
+# Model CPU inference passed on 2026-10-17; 46 automated checks on 2026-10-18.
+# User confirmed camera, two-hand landmarks and handedness on 2026-10-17.
+# User accepted revised digit rules as a teaching baseline on 2026-10-18.
+# MediaPipe depends on opencv-contrib-python. Install only this OpenCV variant.
+mediapipe==0.10.35
+opencv-contrib-python==4.12.0.88
+numpy==2.2.6
