@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>订单列表</title>
+    <style>
+      table {
+        border-collapse: collapse;
+        width: 100%;
+        margin: 20px 0;
+      }
+      th, td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+      }
+      th {
+        background-color: #f2f2f2;
+      }
+      .add-button {
+        padding: 10px 15px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        margin-bottom: 10px;
+      }
+      .add-button:hover {
+        background-color: #45a049;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>订单列表</h1>
+    <button class="add-button" onclick="addOrder()">添加订单</button>
+    <table>
+      <thead>
+        <tr>
+          <th>订单ID</th>
+          <th>用户ID</th>
+          <th>订单号</th>
+          <th>金额</th>
+          <th>状态</th>
+          <th>创建时间</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for order in orders %}
+        <tr>
+          <td>{{ order[0] }}</td>
+          <td>{{ order[1] }}</td>
+          <td>{{ order[2] }}</td>
+          <td>{{ order[3] }}</td>
+          <td>{{ order[4] }}</td>
+          <td>{{ order[5] }}</td>
+        </tr>
+        {% else %}
+        <tr>
+          <td colspan="6" style="text-align: center;">暂无订单数据</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+    
+    <script>
+      function addOrder() {
+        // 跳转到添加订单页面
+        window.location.href = '/order/create';
+      }
+    </script>
+  </body>
+</html>

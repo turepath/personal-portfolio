@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>添加订单</title>
+    <style>
+      form {
+        margin: 20px 0;
+        padding: 20px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        width: 400px;
+      }
+      label {
+        display: block;
+        margin-bottom: 8px;
+        font-weight: bold;
+      }
+      input[type="text"],
+      input[type="number"] {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 16px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        box-sizing: border-box;
+      }
+      input[type="submit"] {
+        padding: 10px 15px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      input[type="submit"]:hover {
+        background-color: #45a049;
+      }
+      .back-button {
+        padding: 10px 15px;
+        background-color: #f1f1f1;
+        color: black;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        margin-right: 10px;
+        text-decoration: none;
+      }
+      .back-button:hover {
+        background-color: #ddd;
+      }
+      .error {
+        color: red;
+        margin-bottom: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>添加订单</h1>
+    <a href="/order/list" class="back-button">返回订单列表</a>
+    {% if error %}
+    <div class="error">{{ error }}</div>
+    {% endif %}
+    <form method="post">
+      <label for="user_id">用户ID</label>
+      <input type="number" id="user_id" name="user_id" required />
+      
+      <label for="order_no">订单号</label>
+      <input type="text" id="order_no" name="order_no" required />
+      
+      <label for="amount">金额</label>
+      <input type="number" id="amount" name="amount" step="0.01" required />
+      
+      <input type="submit" value="添加订单" />
+    </form>
+  </body>
+</html>

@@ -1,0 +1,52 @@
+
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "FocusCompanionSettings",
+  "type": "object",
+  "properties": {
+    "focusEnvironment": {
+      "type": "object",
+      "properties": {
+        "themeMode": { "enum": ["Light", "Dark", "Auto (system)"], "default": "Auto (system)" },
+        "simplifiedMode": { "type": "boolean", "default": false },
+        "animationControl": { "enum": ["Normal", "Reduced motion", "Disabled"], "default": "Reduced motion" },
+        "focusAccent": { "type": "string", "pattern": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$", "default": "#8A9B6E" },
+        "fontSize": { "type": "integer", "minimum": 12, "maximum": 24, "default": 16 }
+      },
+      "required": ["themeMode", "simplifiedMode", "animationControl", "focusAccent", "fontSize"]
+    },
+    "notifications": {
+      "type": "object",
+      "properties": {
+        "dndEnabled": { "type": "boolean", "default": true },
+        "restReminder": { "enum": ["Visual", "Sound", "Off"], "default": "Visual" },
+        "restFrequency": { "type": "integer", "default": 25 },
+        "taskDueReminder": { "enum": ["Immediate", "30 min before", "1 hour before"], "default": "30 min before" }
+      },
+      "required": ["dndEnabled", "restReminder", "restFrequency", "taskDueReminder"]
+    },
+    "account": {
+      "type": "object",
+      "properties": {
+        "displayName": { "type": "string", "minLength": 2, "maxLength": 50 },
+        "bio": { "type": "string", "maxLength": 160 }
+      }
+    },
+    "preferences": {
+      "type": "object",
+      "properties": {
+        "whiteNoisePreset": { "enum": ["None", "Rain", "Ocean", "Cafe", "Brown noise"], "default": "None" },
+        "autoPlayNoise": { "type": "boolean", "default": false },
+        "defaultRoomType": { "enum": ["1:1", "1:Many", "Pro"], "default": "1:1" },
+        "privacy": {
+          "type": "object",
+          "properties": {
+            "shareAnalytics": { "type": "boolean", "default": false },
+            "personalizedRecommendations": { "type": "boolean", "default": false },
+            "allowTargetedSuggestions": { "type": "boolean", "default": false }
+          }
+        }
+      }
+    }
+  }
+}

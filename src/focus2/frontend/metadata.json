@@ -1,0 +1,8 @@
+{
+  "name": "Focus Video / Study Companion",
+  "description": "A production-ready prototype for video-based study sessions, community interaction, and focused productivity using calm earth tones and low-cognitive load design.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}

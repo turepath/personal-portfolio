@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Focus Companion</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles/settings.tokens.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            'earth-bg': '#F8F5F1',
+            'earth-card': '#EFEAE2',
+            'earth-card-alt': '#E6DFD5',
+            'earth-text': '#5C5246',
+            'earth-text-sec': '#8C8379',
+            'earth-border': '#D5CDC3',
+            'earth-accent': '#8A9B6E',
+            'earth-accent-hover': '#A8B896',
+            'earth-success': '#6B8C42',
+            'earth-warning': '#C97C5D',
+            'earth-danger': '#A05858',
+            'earth-link': '#7D8C6F',
+          },
+          fontFamily: {
+            sans: ['Inter', '-apple-system', 'Helvetica Neue', 'sans-serif'],
+          },
+          borderRadius: {
+            'sm': '6px',
+            'md': '10px',
+            'lg': '16px',
+          },
+          boxShadow: {
+            'default': '0 6px 18px rgba(92,82,70,0.06)',
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    :root {
+      --header-height: 80px;
+      --max-content-width: 1400px;
+    }
+    
+    body {
+      background-color: #F8F5F1;
+      color: #5C5246;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      margin: 0;
+      padding: 0;
+      font-family: 'Inter', -apple-system, 'Helvetica Neue', sans-serif;
+    }
+    
+    .scrollbar-hide::-webkit-scrollbar {
+      display: none;
+    }
+    
+    .scrollbar-hide {
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
+  </style>
+</head>
+<body class="font-sans overflow-x-hidden">
+  <div id="root"></div>
+  <script type="module" src="/src/index.tsx"></script>
+</body>
+</html>

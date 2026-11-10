@@ -1,0 +1,51 @@
+
+:root {
+  --post-card-bg: var(--card-bg);
+  --post-card-border: var(--border);
+  --post-media-overlay: rgba(0, 0, 0, 0.4);
+  --composer-bg: #FFFFFF;
+  --composer-border: var(--border);
+  --friend-row-bg: transparent;
+  --friend-row-hover: var(--card-bg);
+  --unread-dot-color: var(--danger);
+  --chat-bubble-me: var(--accent);
+  --chat-bubble-them: var(--card-bg-alt);
+  --community-column-gap: 24px;
+}
+
+[data-theme='dark'] {
+  --composer-bg: #262626;
+  --chat-bubble-them: #333333;
+}
+
+.community-grid {
+  display: grid;
+  grid-template-columns: 1fr 360px;
+  gap: var(--community-column-gap);
+  width: 100%;
+}
+
+@media (max-width: 1024px) {
+  .community-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.post-media-container {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  margin-bottom: 12px;
+}
+
+.friend-unread-dot {
+  width: 8px;
+  height: 8px;
+  background-color: var(--unread-dot-color);
+  border-radius: 50%;
+  position: absolute;
+  top: 12px;
+  right: 12px;
+}

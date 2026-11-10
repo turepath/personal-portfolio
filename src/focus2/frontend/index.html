@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Focus Companion</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./styles/settings.tokens.css" />
+
+    <!-- MediaPipe Face Detection -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@mediapipe/face_detection/face_detection.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@mediapipe/drawing_utils/drawing_utils.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              "earth-bg": "#F8F5F1",
+              "earth-card": "#EFEAE2",
+              "earth-card-alt": "#E6DFD5",
+              "earth-text": "#5C5246",
+              "earth-text-sec": "#8C8379",
+              "earth-border": "#D5CDC3",
+              "earth-accent": "#8A9B6E",
+              "earth-accent-hover": "#A8B896",
+              "earth-success": "#6B8C42",
+              "earth-warning": "#C97C5D",
+              "earth-danger": "#A05858",
+              "earth-link": "#7D8C6F",
+            },
+            fontFamily: {
+              sans: ["Inter", "-apple-system", "Helvetica Neue", "sans-serif"],
+            },
+            borderRadius: {
+              sm: "6px",
+              md: "10px",
+              lg: "16px",
+            },
+            boxShadow: {
+              default: "0 6px 18px rgba(92,82,70,0.06)",
+            },
+          },
+        },
+      };
+    </script>
+    <style>
+      body {
+        background-color: #f8f5f1;
+        color: #5c5246;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+      .scrollbar-hide::-webkit-scrollbar {
+        display: none;
+      }
+      .scrollbar-hide {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+      }
+      .glass {
+        background: rgba(255, 255, 255, 0.7);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+      }
+      .custom-scrollbar::-webkit-scrollbar {
+        width: 4px;
+      }
+      .custom-scrollbar::-webkit-scrollbar-track {
+        background: transparent;
+      }
+      .custom-scrollbar::-webkit-scrollbar-thumb {
+        background: #eee;
+        border-radius: 10px;
+      }
+    </style>
+    <script type="importmap">
+      {
+        "imports": {
+          "react": "https://esm.sh/react@^19.2.4",
+          "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+          "react/": "https://esm.sh/react@^19.2.4/",
+          "react-router-dom": "https://esm.sh/react-router-dom@^7.13.0",
+          "@prisma/client": "https://esm.sh/@prisma/client@^7.3.0",
+          "dotenv/": "https://esm.sh/dotenv@^17.2.3/",
+          "express": "https://esm.sh/express@^5.2.1",
+          "http": "https://esm.sh/http@^0.0.1-security",
+          "cors": "https://esm.sh/cors@^2.8.6",
+          "cookie-parser": "https://esm.sh/cookie-parser@^1.4.7",
+          "jsonwebtoken": "https://esm.sh/jsonwebtoken@^9.0.3",
+          "bcrypt": "https://esm.sh/bcrypt@^6.0.0",
+          "crypto": "https://esm.sh/crypto@^1.0.1",
+          "agora-access-token": "https://esm.sh/agora-access-token@^2.0.4",
+          "socket.io": "https://esm.sh/socket.io@^4.8.3",
+          "nodemailer": "https://esm.sh/nodemailer@^7.0.13",
+          "@google/genai": "https://esm.sh/@google/genai@^1.38.0",
+          "vite": "https://esm.sh/vite@^7.3.1",
+          "@vitejs/plugin-react": "https://esm.sh/@vitejs/plugin-react@^5.1.2"
+        }
+      }
+    </script>
+    <link rel="stylesheet" href="/index.css" />
+  </head>
+  <body class="font-sans overflow-x-hidden">
+    <div id="root"></div>
+    <!-- 入口文件引用 -->
+    <script type="module" src="/src/index.tsx"></script>
+  </body>
+</html>

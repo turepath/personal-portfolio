@@ -1,0 +1,46 @@
+**计划使用mysql创建的数据库：**
+-- 创建数据库
+CREATE DATABASE flask_app
+CHARACTER SET utf8mb4
+COLLATE utf8mb4_unicode_ci;
+
+USE flask_app;
+
+-- 用户表（用于登录认证）
+CREATE TABLE users (
+id INT PRIMARY KEY AUTO_INCREMENT,
+username VARCHAR(80) NOT NULL UNIQUE,
+email VARCHAR(120) NOT NULL UNIQUE,
+password_hash VARCHAR(255) NOT NULL,
+created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+is_active BOOLEAN DEFAULT TRUE,
+is_admin BOOLEAN DEFAULT FALSE
+);
+
+-- 文章表
+CREATE TABLE posts (
+id INT PRIMARY KEY AUTO_INCREMENT,
+title VARCHAR(200) NOT NULL,
+content TEXT NOT NULL,
+user_id INT NOT NULL,
+created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE,
+INDEX idx_user_created (user_id, created_at)
+);
+
+-- 评论表
+CREATE TABLE comments (
+id INT PRIMARY KEY AUTO_INCREMENT,
+content TEXT NOT NULL,
+user_id INT NOT NULL,
+post_id INT NOT NULL,
+created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE,
+FOREIGN KEY (post_id) REFERENCES posts(id) ON DELETE CASCADE
+);
+
+-- 创建应用用户并授权
+CREATE USER 'flask_user'@'localhost' IDENTIFIED BY 'your_password';
+GRANT ALL PRIVILEGES ON flask_app.\* TO 'flask_user'@'localhost';
+FLUSH PRIVILEGES;

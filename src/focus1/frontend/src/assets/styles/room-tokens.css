@@ -1,0 +1,21 @@
+
+:root {
+  /* Room Specific Colors */
+  --room-bg: #E8E3DB; /* Deeper, more focused variant */
+  --room-bg-texture: radial-gradient(circle at center, #EFEAE2 0%, #E8E3DB 100%);
+  --room-special-bg: #2C2824; /* Mode 5: Unique dark background */
+  --room-control-bg: rgba(92, 82, 70, 0.85);
+  --room-control-hover: rgba(138, 155, 110, 0.9);
+  
+  /* Layout Transitions */
+  --room-transition: all 400ms cubic-bezier(0.4, 0, 0.2, 1);
+  
+  /* Video Overlays */
+  --video-overlay-grad: linear-gradient(to bottom, transparent 60%, rgba(0,0,0,0.4));
+}
+
+/* Accessibility: Focus visible */
+.room-btn:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
